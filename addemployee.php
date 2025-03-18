@@ -37,7 +37,7 @@
 		//based on using the GET attribute
 		//this statement needs to be variablized to put in the data passed from the form
 		//right now it is hardcoded.
-		$sql = "INSERT INTO employees (emp_no, birth_date, first_name, last_name, gender, hire_date) VALUES ('".$emp_no."','".$birth_date."' ,'".$first_name."' , '".$last_name."', '".$gender."', '".$hire_date."')";
+		$sql = "INSERT INTO employees (emp_no, birth_date, first_name, last_name, gender, hire_date) VALUES ('" . $emp_no . "', '" . $birth_date . "', '" . $first_name . "', '" . $last_name . "', '" . $gender . "', '" . $hire_date . "')";
 	
                 //run the query and check for errors	
 		if ($conn->query($sql) === TRUE){
